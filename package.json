@@ -1,0 +1,24 @@
+{
+  "name": "postcss-arrow-boxes",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin that will create boxes with arrows in any direction.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "arrows"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Larsen <luke@lukelarsen.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukelarsen/postcss-arrow-boxes"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.0.11"
+  }
+}
