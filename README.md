@@ -16,7 +16,7 @@ It is often useful to have some content in a box and have that box have an arrow
 ```
 
 ```css
-/* You define properties of your box*/
+/* You define properties of your box. */
 .arrow-box{
     position: relative;
     display: block;
@@ -38,7 +38,6 @@ Will output:
     display: block;
     width: 120px;
     height: 75px;
-    margin-bottom: 30px;
 }
 
 .arrow-box--bottom-right{
@@ -78,7 +77,7 @@ gulp.task('css', function () {
 ```
 
 ### Options
-arrow-box: <side>, <position>, <color>, <size>;
+arrow-box: (side), (position), (color), (size);
 
 #### side
 Side can be either top, right, bottom, or left.
